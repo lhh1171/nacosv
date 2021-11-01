@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-undertow:2.2.9.RELEASE">
+    <CLASSES>
+      <root url="jar:///gradlehome/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-undertow/2.2.9.RELEASE/bd804b5dd7fb35ed1757d989dcdb2e754c1fa45a/spring-boot-starter-undertow-2.2.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///gradlehome/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-undertow/2.2.9.RELEASE/1c03ae5041cca7587a7808dbd55394ef2b342fe2/spring-boot-starter-undertow-2.2.9.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

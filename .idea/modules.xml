@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-ali-gradle.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-ali-gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-config-demo/spring-boot-ali-gradle.nacos-config-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-config-demo/spring-boot-ali-gradle.nacos-config-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-config-demo/spring-boot-ali-gradle.nacos-config-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-config-demo/spring-boot-ali-gradle.nacos-config-demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-config-demo/spring-boot-ali-gradle.nacos-config-demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-config-demo/spring-boot-ali-gradle.nacos-config-demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-consumer-demo/spring-boot-ali-gradle.nacos-consumer-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-consumer-demo/spring-boot-ali-gradle.nacos-consumer-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-consumer-demo/spring-boot-ali-gradle.nacos-consumer-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-consumer-demo/spring-boot-ali-gradle.nacos-consumer-demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-consumer-demo/spring-boot-ali-gradle.nacos-consumer-demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-consumer-demo/spring-boot-ali-gradle.nacos-consumer-demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-provider-demo/spring-boot-ali-gradle.nacos-provider-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-provider-demo/spring-boot-ali-gradle.nacos-provider-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-provider-demo/spring-boot-ali-gradle.nacos-provider-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-provider-demo/spring-boot-ali-gradle.nacos-provider-demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nacos-provider-demo/spring-boot-ali-gradle.nacos-provider-demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/nacos-provider-demo/spring-boot-ali-gradle.nacos-provider-demo.test.iml" />
+    </modules>
+  </component>
+</project>

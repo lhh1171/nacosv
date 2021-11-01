@@ -1,0 +1,6 @@
+com/ease/arch/Application.java
+ com.ease.arch.Application
+com/ease/arch/controller/TestController.java
+ com.ease.arch.controller.TestController
+com/ease/arch/remote/Client.java
+ com.ease.arch.remote.Client

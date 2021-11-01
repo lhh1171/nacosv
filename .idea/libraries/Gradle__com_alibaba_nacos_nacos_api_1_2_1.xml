@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alibaba.nacos:nacos-api:1.2.1">
+    <CLASSES>
+      <root url="jar:///gradlehome/caches/modules-2/files-2.1/com.alibaba.nacos/nacos-api/1.2.1/5852fdf24d1cc31e707dc51ffd89eb22a0c03b0f/nacos-api-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///gradlehome/caches/modules-2/files-2.1/com.alibaba.nacos/nacos-api/1.2.1/2f1590f5315e76900285801beb72889420312ff3/nacos-api-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

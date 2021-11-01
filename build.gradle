@@ -1,0 +1,74 @@
+plugins {
+    id 'org.springframework.boot' version '2.2.9.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+
+}
+
+
+
+
+allprojects {
+
+    group = 'com.ease.arch'
+    version = '1.0-SNAPSHOT'
+    repositories {
+        mavenLocal()
+        maven { url "https://maven.aliyun.com/repository/public" }
+        jcenter()
+    }
+}
+
+subprojects {
+
+    apply plugin: 'java-library'
+    apply plugin: 'idea'
+    apply plugin: 'maven'
+    apply plugin: 'io.spring.dependency-management'
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+    // java编译的时候缺省状态下会因为中文字符而失败
+    [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+//    ext {
+//        set('springBootVersion', "2.2.9.RELEASE")
+//        set('springCloudAlibabaVersion', "2.2.1.RELEASE")
+//        set('springCloudVersion', "Hoxton.SR2")
+//        set('lombokVersion', "1.18.12")
+//    }
+    configurations {
+        developmentOnly
+        runtimeClasspath {
+            extendsFrom developmentOnly
+        }
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+        // 排除 tomcat 依赖（使用 undertow）
+        implementation.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+    }
+    dependencies {
+        implementation "org.springframework.boot:spring-boot-starter-undertow:${springBootVersion}"
+        compileOnly "org.projectlombok:lombok:${lombokVersion}"
+        annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+        testImplementation("org.springframework.boot:spring-boot-starter-test:${springBootVersion}") {
+            exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+        }
+        implementation "org.springframework.boot:spring-boot-starter-parent:${springBootVersion}"
+    }
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+            mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
+            mavenBom "com.alibaba.cloud:spring-cloud-alibaba-dependencies:${springCloudAlibabaVersion}"
+        }
+    }
+
+    jar {
+        enabled = true
+    }
+
+    test {
+        useJUnitPlatform()
+        ignoreFailures = true
+    }
+}
+
